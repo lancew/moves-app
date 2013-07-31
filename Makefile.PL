@@ -8,9 +8,7 @@ WriteMakefile(
     VERSION_FROM        => 'lib/MovesApp/Api.pm',
     ABSTRACT_FROM       => 'lib/MovesApp/Api.pm',
     PL_FILES            => {},
-    PREREQ_PM => {
-        'Test::More' => '0.87',
-    },
+    PREREQ_PM           => {},
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'MovesApp-Api-*' },
 );
